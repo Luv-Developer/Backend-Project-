@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Register</title>
+        <link rel="stylesheet" type="text/css" href="/stylesheets/register.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+        <form action  = "/register" method = "post">
+            <section>
+                <div class="main">
+                <div class="first">
+                    <h2>Register</h2>
+                </div>
+                <div class="first">
+                 <input class="email" type="email" placeholder="email" name = "email"><i id ="fbox" class='bx bxs-envelope'></i>
+                </div>
+                <div class="second">
+                <input class="user" type="text" placeholder="username" name = "username"><i id="sbox" class='bx bxs-user'></i>
+                </div>
+                <div class="third">
+                <input class="pass" type="password" placeholder="password" name = "password"><i id="tbox" class='bx bxs-lock-alt' ></i>
+                </div>
+                <div class="fourth">
+                <label class="flabel"><input class="check" type="checkbox">I'm not a robot<i id="robot" class='bx bxs-invader'></i></label>
+                </div>
+                <div class="fifth">
+                    <button class="btn">Submit</button>
+                </div>
+                <div class="sixth">
+                 <label class="slabel">Don't have an account? <a class="account" href="#">Create Account</a> </label>   
+                </div>
+                </div>
+            </form>
+            </section>
+    </body>
+</html>
